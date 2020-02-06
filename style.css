@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url('../fonts/ubuntu/Ubuntu-Regular.ttf'); 
+}button::before {
+  content: '';
+  position: absolute;
+  border: 1px solid #29AEE3;
+  left: -20px;
+  right: -20px;
+  top: -20px;
+  bottom: -20px;
+  border-radius: 50%;
+  animation: pulse 1.8s linear infinite;
+ }    
+ .animated{
+  margin-right:24px;
+ }
